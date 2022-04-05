@@ -2,12 +2,49 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
+nav a{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+
 #cabecalho{
     position: fixed;
     top: 0px;
+    background-color: royalblue;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
 
 }
 
 #minha_foto{
     width: 200px;
+    position: relative;
+    top: 50px;
+    
+}
+
+#nome{
+    position: relative;
+    top: 80px;
+}
+
+#link{
+    position: relative;
+    top: 50px;
+
+}
+
+#texto{
+    position: relative;
+    top: 50px;
+}
+
+#rodape{
+    position: relative;
+    top: 50px;
 }
